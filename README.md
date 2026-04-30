@@ -340,9 +340,9 @@ Scripts: `scripts/Demographics_Analysis/`
 
 ---
 
-## Notes on Path Configuration
-
-Scripts reference absolute paths from Stanford's Sherlock HPC (`/oak/stanford/groups/menon/projects/leipold/2022_ASD_CrossDevelop/`). These paths would need to be changed to re-run scripts in a different environment.
+## Notes on Path Configuration  
+- Scripts reference absolute paths from Stanford's Sherlock HPC (`/oak/stanford/groups/menon/projects/leipold/2022_ASD_CrossDevelop/`).  
+These paths would need to be changed to re-run scripts in a different environment. 
 ---
 
 ## Citation
