@@ -1,0 +1,3 @@
+for spm in spm12; do for preproc in swgcar; do for run in `seq 1 10`; do echo $run; cat movementstats_config_template.m | sed "s/Run1/Run${run}/g" >> movementstats_config_Run${run}_${preproc}_${spm}.m; done; done; done
+
+for spm in spm12; do for preproc in swgcar; do for run in `seq 1 10`; do echo $run; cat movementstats_config_template.m | sed "s/Run1/Run${run}_redo/g" >> movementstats_config_Run${run}_redo_${preproc}_${spm}.m; done; done; done

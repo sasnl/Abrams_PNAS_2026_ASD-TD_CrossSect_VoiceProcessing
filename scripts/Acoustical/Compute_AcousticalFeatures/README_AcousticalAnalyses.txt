@@ -1,0 +1,1 @@
+ Note regarding ASD-TD Cross-Sectional Acoustical Analyses:ALL of these acoustical analyses were performed on a local computer Ð I found it easiest to run Praat on my local computer and easy/fast to run regression models locally on Matlab. I have uploaded all of these data, scripts, etc performed on my local computer for documentation purposes. -Dan12/09/2024

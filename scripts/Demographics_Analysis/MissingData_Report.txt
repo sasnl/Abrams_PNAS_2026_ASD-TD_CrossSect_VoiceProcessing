@@ -1,0 +1,7 @@
+Missing data by variable:
+  Age       :   0 missing (0.0%)
+  WIAT_WR   :   0 missing (0.0%)
+  WIAT_RC   :   0 missing (0.0%)
+  WASI_FSIQ :   0 missing (0.0%)
+  WASI_PIQ  :   0 missing (0.0%)
+  WASI_VIQ  :   0 missing (0.0%)

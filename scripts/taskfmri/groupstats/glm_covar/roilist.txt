@@ -1,0 +1,3 @@
+glm_covar_age_ASD_only_spm12
+glm_covar_age_TD_only_spm12
+glm_two_sample_covar_age_ASD_TD_spm12

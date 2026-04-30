@@ -1,0 +1,9 @@
+001T_mother_min_environ
+003T_others_min_environ
+005T_cont1_min_environ
+007T_cont2_min_environ
+009T_mother_min_other
+011T_speech_min_environ
+013T_cont1_min_cont2
+015T_mother_min_cont1
+017T_mother_min_cont2

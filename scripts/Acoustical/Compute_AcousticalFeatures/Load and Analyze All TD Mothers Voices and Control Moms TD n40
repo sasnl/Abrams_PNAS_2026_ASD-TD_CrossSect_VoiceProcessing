@@ -1,0 +1,136 @@
+## load all sound files.praat
+## Mark Antoniou
+## Northwestern University C 2011
+
+## This script opens all the sound files in a given directory.
+## It then plays all of the sound files, and finally cleans the list. 
+## Useful for listening to many sound files, e.g., during token selection.
+
+clearinfo 
+
+# 
+# form Enter directory and search string
+# Be sure not to forget the slash (Windows: backslash, OSX: forward
+# slash)  at the end of the directory name.
+#	sentence Directory C:\Users\Public\Acoustical_Analysis_All_Voices\FINAL\
+#  Leaving the "Word" field blank will open all sound files in a
+#  directory. By specifying a Word, you can open only those files
+#  that begin with a particular sequence of characters. For example,
+#  you may wish to only open tokens whose filenames begin with ba.
+#	sentence Word
+#	sentence Filetype wav
+#	sentence outFile Result.txt
+# endform
+
+subs$[1] = "Control1"
+subs$[2] = "Control2"
+subs$[3] = "ExpMom_Sub336"
+subs$[4] = "ExpMom_Sub457"
+subs$[5] = "ExpMom_Sub7014"
+subs$[6] = "ExpMom_Sub7081"
+subs$[7] = "ExpMom_Sub7112"
+subs$[8] = "ExpMom_Sub7178"
+subs$[9] = "ExpMom_Sub7185"
+subs$[10] = "ExpMom_Sub7211"
+subs$[11] = "ExpMom_Sub7281"
+subs$[12] = "ExpMom_Sub7330"
+subs$[13] = "ExpMom_Sub7331"
+subs$[14] = "ExpMom_Sub7371"
+subs$[15] = "ExpMom_Sub7372"
+subs$[16] = "ExpMom_Sub7384"
+subs$[17] = "ExpMom_Sub7395"
+subs$[18] = "ExpMom_Sub7413"
+subs$[19] = "ExpMom_Sub7437"
+subs$[20] = "ExpMom_Sub7438"
+subs$[21] = "ExpMom_Sub7446"
+subs$[22] = "ExpMom_Sub7489"
+subs$[23] = "ExpMom_Sub7498"
+subs$[24] = "ExpMom_Sub7540"
+subs$[25] = "ExpMom_Sub7543"
+subs$[26] = "ExpMom_Sub7544"
+subs$[27] = "ExpMom_Sub7552"
+subs$[28] = "ExpMom_Sub7571"
+subs$[29] = "ExpMom_Sub7589"
+subs$[30] = "ExpMom_Sub7623"
+subs$[31] = "ExpMom_Sub7652"
+subs$[32] = "ExpMom_Sub7666"
+subs$[33] = "ExpMom_Sub7669"
+subs$[34] = "ExpMom_Sub7676"
+subs$[35] = "ExpMom_Sub7679"
+subs$[36] = "ExpMom_Sub7680"
+subs$[37] = "ExpMom_Sub7689"
+subs$[38] = "ExpMom_Sub7691"
+subs$[39] = "ExpMom_Sub7696"
+subs$[40] = "ExpMom_Sub7702"
+subs$[41] = "ExpMom_Sub7707"
+subs$[42] = "ExpMom_Sub7710"
+
+root_directory$ = "/Users/daniela/Documents/Scratch/ASD_TD_MothersVoice_Recordings/Data/Voice_Samples/"
+filetype$ = "wav"
+
+for sub_i from 1 to 42
+
+directory$ = root_directory$ + subs$[sub_i] + "/FINAL/"
+
+outFile$ = root_directory$ + subs$[sub_i] + "/FINAL/" + "Result.txt"
+
+Create Strings as file list... list 'directory$'*'filetype$'
+number_of_files = Get number of strings
+
+
+	for x from 1 to number_of_files
+
+    	 	select Strings list
+     		current_file$ = Get string... x
+    		Read from file... 'directory$''current_file$'
+     		object_name$ = selected$ ("Sound")
+
+
+     		To Pitch... 0.00 75 300
+
+     		pitch_mean = Get mean... 0 0 Hertz
+     		pitch_mean = round(pitch_mean)
+
+    		pitch_min = Get minimum... 0 0 Hertz Parabolic
+     		pitch_min = round(pitch_min)
+
+     		pitch_max = Get maximum... 0 0 Hertz Parabolic
+     		pitch_max = round(pitch_max)
+
+     		pitch_stdev = Get standard deviation... 0 0 Hertz
+     		pitch_stdev = round(pitch_stdev )
+
+     		pitch_slope = Get slope without octave jumps
+     		pitch_slope = round(pitch_slope)
+
+     		select Sound 'object_name$'
+     
+     		To Spectrum... Fast
+
+     		spectral_center_gravity = Get centre of gravity... 2
+     		spectral_center_gravity = round(spectral_center_gravity)
+
+     		spectral_stdev = Get standard deviation... 2
+     		spectral_stdev = round(spectral_stdev)
+
+     		spectral_skew = Get skewness... 2
+     
+
+     		fileappend "'outFile$'" 'current_file$', 'pitch_mean', 
+      			...'pitch_min', 'pitch_max', 'pitch_stdev', 'pitch_slope', 
+			...'spectral_center_gravity', 'spectral_stdev', 'spectral_skew',
+        		...'newline$'
+
+		
+
+	endfor
+
+	select all
+	minus Strings list
+	#Remove
+endfor
+
+
+#Play
+#select all
+#Remove

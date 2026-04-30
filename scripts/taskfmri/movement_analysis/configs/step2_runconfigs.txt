@@ -1,0 +1,21 @@
+mlsubmit movementstatsfmri_parallel.m movementstats_config_Run1_swgcar_spm12.m -p dev -c 2 -m 8G -t 1:00:00
+mlsubmit movementstatsfmri_parallel.m movementstats_config_Run2_swgcar_spm12.m -p dev -c 2 -m 8G -t 1:00:00
+mlsubmit movementstatsfmri_parallel.m movementstats_config_Run3_swgcar_spm12.m -p dev -c 2 -m 8G -t 1:00:00
+mlsubmit movementstatsfmri_parallel.m movementstats_config_Run4_swgcar_spm12.m -p dev -c 2 -m 8G -t 1:00:00
+mlsubmit movementstatsfmri_parallel.m movementstats_config_Run5_swgcar_spm12.m -p dev -c 2 -m 8G -t 1:00:00
+mlsubmit movementstatsfmri_parallel.m movementstats_config_Run6_swgcar_spm12.m -p dev -c 2 -m 8G -t 1:00:00
+mlsubmit movementstatsfmri_parallel.m movementstats_config_Run7_swgcar_spm12.m -p dev -c 2 -m 8G -t 1:00:00
+mlsubmit movementstatsfmri_parallel.m movementstats_config_Run8_swgcar_spm12.m -p dev -c 2 -m 8G -t 1:00:00
+mlsubmit movementstatsfmri_parallel.m movementstats_config_Run9_swgcar_spm12.m -p dev -c 2 -m 8G -t 1:00:00
+mlsubmit movementstatsfmri_parallel.m movementstats_config_Run10_swgcar_spm12.m -p dev -c 2 -m 8G -t 1:00:00
+
+mlsubmit movementstatsfmri_parallel.m movementstats_config_Run1_redo_swgcar_spm12.m -p dev -c 2 -m 8G -t 1:00:00
+mlsubmit movementstatsfmri_parallel.m movementstats_config_Run2_redo_swgcar_spm12.m -p dev -c 2 -m 8G -t 1:00:00
+mlsubmit movementstatsfmri_parallel.m movementstats_config_Run3_redo_swgcar_spm12.m -p dev -c 2 -m 8G -t 1:00:00
+mlsubmit movementstatsfmri_parallel.m movementstats_config_Run4_redo_swgcar_spm12.m -p dev -c 2 -m 8G -t 1:00:00
+mlsubmit movementstatsfmri_parallel.m movementstats_config_Run5_redo_swgcar_spm12.m -p dev -c 2 -m 8G -t 1:00:00
+mlsubmit movementstatsfmri_parallel.m movementstats_config_Run6_redo_swgcar_spm12.m -p dev -c 2 -m 8G -t 1:00:00
+mlsubmit movementstatsfmri_parallel.m movementstats_config_Run7_redo_swgcar_spm12.m -p dev -c 2 -m 8G -t 1:00:00
+mlsubmit movementstatsfmri_parallel.m movementstats_config_Run8_redo_swgcar_spm12.m -p dev -c 2 -m 8G -t 1:00:00
+mlsubmit movementstatsfmri_parallel.m movementstats_config_Run9_redo_swgcar_spm12.m -p dev -c 2 -m 8G -t 1:00:00
+mlsubmit movementstatsfmri_parallel.m movementstats_config_Run10_redo_swgcar_spm12.m -p dev -c 2 -m 8G -t 1:00:00

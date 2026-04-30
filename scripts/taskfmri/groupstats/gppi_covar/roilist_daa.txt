@@ -1,0 +1,2 @@
+gPPI_covar_Age_ADOS_Interaction_ASD_only/PPI_left_pSTS_spm12
+gPPI_covar_Age_ADOS_Interaction_ASD_only/PPI_right_pSTS_spm12

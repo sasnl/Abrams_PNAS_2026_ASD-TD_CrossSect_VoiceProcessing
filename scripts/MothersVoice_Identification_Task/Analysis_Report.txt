@@ -1,0 +1,24 @@
+==================== MothersVoice Analysis Report ====================
+
+MedianRT Linear Model:
+Formula: MedianRT ~ Age * Group
+
+Term            Estimate     SE         tStat      pValue    
+(Intercept)     535.6379     129.3578   4.1407     8.977e-05 
+Group_ASD       -11.0274     187.8553   -0.0587    0.9533    
+Age             -11.6845     10.2556    -1.1393    0.2582    
+Group_ASD:Age   1.7403       14.7271    0.1182     0.9062    
+
+R-squared: 0.0287, Adjusted R-squared: -0.0101
+F-statistic: NaN, p = NaN
+
+MeanACC Linear Model:
+Formula: MeanACC ~ Age * Group
+
+Term            Estimate     SE         tStat      pValue    
+(Intercept)     0.9560       0.0883     10.8319    5.367e-17 
+Group_ASD       -0.3824      0.1282     -2.9833    0.003846  
+Age             0.0017       0.0070     0.2361     0.814     
+Group_ASD:Age   0.0246       0.0100     2.4439     0.01688   
+
+R-squared: 0.2135, Adjusted R-squared: 0.1821

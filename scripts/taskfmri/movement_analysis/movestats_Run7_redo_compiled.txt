@@ -1,0 +1,4 @@
+TASK	PID	Session	Visit	Range x	Range y	Range z	Range pitch	Range roll	Range yaw	Max Displacement	Max Scan-to-Scan Displacement	Mean Scan-to-Scan Displacement	Num Scans > 0.5 Voxel Displacement	Num Scans > 5% Global Signal	% of Volumes Repaired
+Run7_redo	7395	1	1	1.197172	0.849991	3.266148	0.034677	0.012926	0.015781	2.773593	2.127661	0.355684	4.000000	0.000000	8.064516
+Run7_redo	7526	1	1	0.531804	0.226595	1.191245	0.066803	0.011144	0.022195	1.144845	1.098973	0.099314	1.000000	0.000000	3.225806
+Run7_redo	7582	1	1	0.215412	0.410896	2.059725	0.050810	0.017686	0.018076	1.753289	1.669948	0.147212	3.000000	0.000000	6.451613

@@ -1,0 +1,3 @@
+001T_mother_min_environ
+003T_others_min_environ
+009T_mother_min_other
