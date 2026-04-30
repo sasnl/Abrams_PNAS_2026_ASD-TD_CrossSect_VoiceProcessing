@@ -6,7 +6,6 @@
 
 
 **Authors:** Daniel A. Abrams<sup>1,2</sup>, Simon Leipold<sup>4,5</sup>, Paola Odriozola<sup>1</sup>, Amanda E. Baker<sup>1</sup>, Aarthi Padmanabhan<sup>1</sup>, Jennifer M. Phillips<sup>1</sup>, and Vinod Menon<sup>1–3</sup>
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
 
 **Affiliations:**
 1. Department of Psychiatry and Behavioral Sciences, Stanford University School of Medicine, Stanford, CA 94305, USA
