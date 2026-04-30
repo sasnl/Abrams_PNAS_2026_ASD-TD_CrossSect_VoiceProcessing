@@ -12,17 +12,7 @@
 5. Neuroscience Center Zurich, University of Zurich and ETH Zurich, Switzerland
 
 **Corresponding Author:** Daniel A. Abrams, Ph.D. — daa@stanford.edu
-
-> **Note to depositors:** The sections marked `[INSERT FROM MANUSCRIPT]` below should be filled in with verbatim language from the final published manuscript before public release.
-
 ---
-
-## Abstract
-
-*[INSERT FROM MANUSCRIPT]*
-
----
-
 ## Repository Contents
 
 A full step-by-step description of all analyses — including preprocessing commands, exclusion decisions, groupmatching procedures, and script locations — is documented in:
@@ -353,13 +343,6 @@ Scripts: `scripts/Demographics_Analysis/`
 ## Notes on Path Configuration
 
 Scripts reference absolute paths from Stanford's Sherlock HPC (`/oak/stanford/groups/menon/projects/leipold/2022_ASD_CrossDevelop/`). These paths would need to be changed to re-run scripts in a different environment.
-
----
-
-## Data Availability
-
-*[INSERT FROM MANUSCRIPT]*
-
 ---
 
 ## Citation
