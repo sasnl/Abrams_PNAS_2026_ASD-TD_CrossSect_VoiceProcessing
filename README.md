@@ -2,7 +2,11 @@
 
 **Publication:** Abrams, D.A., Leipold, S., Odriozola, P., Baker, A.E., Padmanabhan, A., Phillips, J.M., & Menon, V. (2026). Developmental divergence in voice-reward circuitry differentiates autistic from typically developing children and adolescents. *Proceedings of the National Academy of Sciences.*
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19932787.svg)](https://doi.org/10.5281/zenodo.19932787)
+
+
 **Authors:** Daniel A. Abrams<sup>1,2</sup>, Simon Leipold<sup>4,5</sup>, Paola Odriozola<sup>1</sup>, Amanda E. Baker<sup>1</sup>, Aarthi Padmanabhan<sup>1</sup>, Jennifer M. Phillips<sup>1</sup>, and Vinod Menon<sup>1–3</sup>
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
 
 **Affiliations:**
 1. Department of Psychiatry and Behavioral Sciences, Stanford University School of Medicine, Stanford, CA 94305, USA
@@ -12,6 +16,7 @@
 5. Neuroscience Center Zurich, University of Zurich and ETH Zurich, Switzerland
 
 **Corresponding Author:** Daniel A. Abrams, Ph.D. — daa@stanford.edu
+
 ---
 ## Repository Contents
 
